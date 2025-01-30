@@ -1,3 +1,21 @@
+<<<<<<< HEAD
+{
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "nodemailer": "^6.9.14"
+  },
+  "name": "tinig",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+=======
 
 {
   "name": "n8n-monorepo",
@@ -10,8 +28,10 @@
   "packageManager": "pnpm@9.15.1",
   "scripts": {
     "prepare": "node scripts/prepare.mjs",
-    "preinstall": "",
-    "build": "echo 'Skipping build step'",
+<<<<<<< HEAD
+    "preinstall": "node scripts/block-npm-install.js",
+    "build": "echo 'Skipping build step for now'",
+>>>>>>> f67990da4b13ca8f83d1e188dd8a25fae45ed0ea
     "build:nodes": "turbo run build:nodes",
     "typecheck": "turbo typecheck",
     "dev": "turbo run dev --parallel --env-mode=loose --filter=!n8n-design-system --filter=!@n8n/chat --filter=!@n8n/task-runner",
@@ -52,7 +72,6 @@
 },
  "devDependencies": {
     "@biomejs/biome": "^1.9.0",
-    "@n8n_io/eslint-config": "workspace:*",
     "@types/jest": "^29.5.3",
     "@types/node": "*",
     "@types/supertest": "^6.0.2",
@@ -104,4 +123,5 @@
       "vue-tsc@2.1.10": "patches/vue-tsc@2.1.10.patch"
     }
   }
+>>>>>>> f91c870ce98c9cf6ce8604c06b16dedc85bd2e1a
 }

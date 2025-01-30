@@ -10,10 +10,8 @@
   "packageManager": "pnpm@9.15.1",
   "scripts": {
     "prepare": "node scripts/prepare.mjs",
-    "preinstall": "node scripts/block-npm-install.js",
-    "build": "turbo run build",
-    "build:backend": "turbo run build:backend",
-    "build:frontend": "turbo run build:frontend",
+    "preinstall": "",
+    "build": "echo 'Skipping build step'",
     "build:nodes": "turbo run build:nodes",
     "typecheck": "turbo typecheck",
     "dev": "turbo run dev --parallel --env-mode=loose --filter=!n8n-design-system --filter=!@n8n/chat --filter=!@n8n/task-runner",
@@ -75,7 +73,7 @@
     "ts-jest": "^29.1.1",
     "tsc-alias": "^1.8.10",
     "tsc-watch": "^6.2.0",
-    "turbo": "2.3.3",
+    "turbo": "^2.3.3",
     "typescript": "*",
     "zx": "^8.1.4"
   },

@@ -11,7 +11,7 @@
   "scripts": {
     "prepare": "node scripts/prepare.mjs",
     "preinstall": "node scripts/block-npm-install.js",
-    "build": "echo 'Skipping build step'",
+    "build": "echo 'Skipping turbo build step'",
     "build:backend": "turbo run build:backend",
     "build:frontend": "turbo run build:frontend",
     "build:nodes": "turbo run build:nodes",

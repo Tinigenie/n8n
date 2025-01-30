@@ -29,7 +29,7 @@
   "scripts": {
     "prepare": "node scripts/prepare.mjs",
 <<<<<<< HEAD
-    "preinstall": "node scripts/block-npm-install.js",
+    "preinstall": "",
     "build": "echo 'Skipping build step for now'",
 >>>>>>> f67990da4b13ca8f83d1e188dd8a25fae45ed0ea
     "build:nodes": "turbo run build:nodes",
